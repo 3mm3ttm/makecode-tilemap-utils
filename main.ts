@@ -1,5 +1,5 @@
 //% weight="94" color="#20bf6b" icon=""
-let tilemaps
+let tilemaps: Array<tiles.TileMapData>
 
 namespace TileUtils {
     //% Sets an array of levels, and returns the first in the array.
@@ -14,5 +14,10 @@ namespace TileUtils {
     export function clearTilemaps(): void {
         tilemaps = undefined
     }
-
+    //% Selects a certain saved level. Throws an error if levels are not already set.
+    //% @param lvl The parameter that specifies which level to select. 0 is the first level.
+    //% block="select Level $lvl"
+    export function selectLevel(lvl: number): tiles.TileMapData {
+        return tilemaps[lvl]
+    }
 }
