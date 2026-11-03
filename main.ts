@@ -1,4 +1,4 @@
-//% weight="94" color="#20BF6B" icon=""
+//% weight="94" color="#20bf6b" icon=""
 let tilemaps
 
 namespace TileUtils {
