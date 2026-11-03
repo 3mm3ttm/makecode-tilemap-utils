@@ -10,7 +10,7 @@ This repository can be added as an **extension** in MakeCode.
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
-* search for **https://github.com/3mm3ttm/tilemp-sorter-ext** and import
+* search for **https://github.com/3mm3ttm/makecode-tilemap-utils** and import
 
 ## Edit this project
 
